@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9225E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 43%;
+    height: 75%;
+    background-color: #652494;
+    text-align: center;
+    border-radius: 90px 10px 90px 10px;
+}
+
+.box input {
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+    outline: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.box input[type="text"] {
+    margin-top: 40px;
+}
+
+.box h1 {
+    color: whitesmoke;
+    margin-top: 16px;
+}
+
+.box .redes .social {
+    cursor: pointer;
+    margin: 20px 0px 20px 10px;
+}
+
+.box button {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    padding: 7px;
+    background-color: #E006C9;
+    cursor: pointer;
+}
+
+.box .copy {
+    position: absolute;
+    bottom: 0;
+}
+
+.box .forgot {
+    margin-top: 10px;
+}
